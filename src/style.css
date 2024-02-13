@@ -12,6 +12,11 @@ html {
   padding: 0;
 }
 
+:root {
+  --light-black: rgb(43, 43, 43, 0.5);
+  --med-black: rgb(43, 43, 43, 0.7);
+}
+
 body {
   background-image: url("./photos/mainbg.jpg");
   background-repeat: no-repeat;
@@ -84,9 +89,9 @@ nav button {
 .menu {
   display: grid;
   margin: 5rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  background-color: rgb(43, 43, 43, 0.5);
+  background-color: var(--light-black);
   border-radius: 1.5rem;
   padding: 2rem;
 }
@@ -97,7 +102,7 @@ nav button {
   align-items: center;
   justify-content: center;
   padding: 5rem;
-  background-color: rgb(43, 43, 43, 0.7);
+  background-color: var(--med-black);
   gap: 1rem;
 }
 
