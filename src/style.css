@@ -119,3 +119,28 @@ nav button {
   font-size: 2rem;
   text-align: center;
 }
+
+/* contact */
+
+.contact {
+  background-color: var(--light-black);
+  padding: 3rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact p {
+  font-size: 2rem;
+  align-self: flex-start;
+  padding: 1rem;
+}
+
+.contact img {
+  width: 55rem;
+}
