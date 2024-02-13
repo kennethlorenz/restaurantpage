@@ -21,9 +21,17 @@ body {
   background-image: url("./photos/mainbg.jpg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
-  margin: 0 10rem;
   color: white;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  gap: 3.5rem;
+}
+
+.main {
+  margin: 0 10rem;
 }
 
 header {
@@ -143,4 +151,20 @@ nav button {
 
 .contact img {
   width: 55rem;
+}
+
+footer {
+  font-size: 2rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  background: var(--light-black);
+  bottom: 0;
+  left: 0;
+}
+
+footer img {
+  width: 2.5rem;
+  margin: 0 1rem;
+  filter: invert();
 }
