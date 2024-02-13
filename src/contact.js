@@ -1,9 +1,16 @@
 export default function contact() {
   const content = document.createElement("div");
-  const menuH1 = document.createElement("h1");
+  const phoneNumber = document.createElement("p");
+  const address = document.createElement("p");
+  const restoGoogleImage = new Image();
 
-  menuH1.innerHTML = "YOU'RE IN CONTACT PAGE";
-  content.append(menuH1);
+  phoneNumber.innerHTML = "📞 123-456-789";
+  address.innerHTML = "🏠 Hollywood Boulevard 42, Los Angeles, USA";
+  restoGoogleImage.src = "../src/photos/restaurant-location.png";
 
+  content.append(phoneNumber);
+  content.append(address);
+  content.append(restoGoogleImage);
+  content.classList.add("contact");
   return content;
 }
