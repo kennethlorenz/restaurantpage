@@ -1,6 +1,5 @@
 import "./style.css";
 import restomap from "./photos/restaurant-location.png";
-import carne from "./photos/carne.png";
 export default function contact() {
   const content = document.createElement("div");
   const phoneNumber = document.createElement("p");
@@ -9,7 +8,7 @@ export default function contact() {
 
   phoneNumber.innerHTML = "📞 123-456-789";
   address.innerHTML = "🏠 Hollywood Boulevard 42, Los Angeles, USA";
-  restoGoogleImage.src = carne;
+  restoGoogleImage.src = restomap;
 
   content.append(phoneNumber);
   content.append(address);

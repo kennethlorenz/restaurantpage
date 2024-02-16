@@ -6,7 +6,6 @@ import gamberi from "./photos/gamberi.png";
 import pepe from "./photos/pepe.png";
 import pomodoro from "./photos/pomodoro.png";
 import salsiccia from "./photos/salsiccia.png";
-import "./style.css";
 export default function menu() {
   const content = document.createElement("div");
   content.classList.add("menu");
