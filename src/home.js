@@ -1,3 +1,4 @@
+import "./style.css";
 export default function home() {
   const content = document.createElement("div");
   const heroH1 = document.createElement("h1");
@@ -6,7 +7,7 @@ export default function home() {
 
   content.classList.add("hero");
 
-  heroH1.innerHTML = "Delicious pizza for your headtop!";
+  heroH1.innerHTML = "Delicious pizza !";
   heroTag.innerHTML =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellateaque soluta tempora ipsa ipsum aliquid.";
   heroBtn.innerHTML = "Order Now";
