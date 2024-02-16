@@ -1,7 +1,7 @@
 import home from "./home";
 import menu from "./menu";
 import contact from "./contact";
-
+import "./style.css";
 const content = document.querySelector("#content");
 const homeNavBtn = document.getElementById("home");
 const menuNavBtn = document.getElementById("menu");

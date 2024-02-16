@@ -55,12 +55,14 @@ export default function menu() {
   content.append(
     createMenuItem(
       "Pomodoro",
+      pomodoro,
       "Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli"
     )
   );
   content.append(
     createMenuItem(
       "Crema",
+      crema,
       "White sauce, Mozarella, Shrimps, Salmon, Pineapple, Olives, Basil"
     )
   );

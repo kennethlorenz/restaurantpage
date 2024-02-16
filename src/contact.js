@@ -1,3 +1,4 @@
+import "./style.css";
 export default function contact() {
   const content = document.createElement("div");
   const phoneNumber = document.createElement("p");
