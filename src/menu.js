@@ -59,7 +59,7 @@ function createMenuItem(pizzaName, description) {
   card.classList.add("menu-item");
 
   const image = new Image();
-  image.src = `../src/photos/${pizzaName}.png`;
+  image.src = `./photos/${pizzaName}.png`;
   image.alt = "alt";
   card.appendChild(image);
 
